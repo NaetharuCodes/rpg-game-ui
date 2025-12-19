@@ -1,10 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
-import Chat from "../pages/Chat";
+import Journal from "../pages/Journal";
 
 export const Route = createFileRoute("/game")({
   component: RouteComponent,
 });
 
 function RouteComponent() {
-  return <Chat />;
+  return <Journal />;
 }
